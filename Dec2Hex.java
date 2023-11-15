@@ -7,14 +7,14 @@ public class Dec2Hex {
     public static void main(String args[]) {
 
         if (args.length == 0) {
-            System.out.println("Error: Please provide a decimal number");
+            System.out.println("Error: Please provide a decimal number.");
             return;
         }
 
         try {
             Arg1 = Integer.parseInt(args[0]);
         } catch (Exception e) {
-            System.out.println("Error: Not a valid integer");
+            System.out.println("Error: Not a valid integer.");
             return;
         }
 
